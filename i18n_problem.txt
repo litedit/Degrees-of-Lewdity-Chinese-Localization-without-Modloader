@@ -1,0 +1,35 @@
+ i18n.json中
+
+
+     {
+        "f": "<<link [[Ride lift to lobby|Office Lift Lobby]]>><</link>>",
+        "t": "<<link [[乘坐电梯到大厅|Office Lift Lobby]]>><</link>>",
+        "pos": 118,
+        "fileName": "lift.twee",
+        "pN": "Widgets Office Lif"
+      },
+      {
+        "f": "<<link [[Ride lift to lobby|Office Lift Stop]]>><</link>>",
+        "t": "<<link [[乘坐电梯到大厅|Office Lift Stop]]>><</link>>",
+        "pos": 189,
+        "fileName": "lift.twee",
+        "pN": "Widgets Office Lif"
+      },
+
+应该为
+
+
+      {
+        "f": "<<link [[Ride lift to lobby|Office Lift Lobby]]>><</link>>",
+        "t": "<<link [[乘坐电梯到大厅|Office Lift Lobby]]>><</link>>",
+        "pos": 118,
+        "fileName": "lift.twee",
+        "pN": "Widgets Office Lift"
+      },
+      {
+        "f": "<<link [[Ride lift to lobby|Office Lift Stop]]>><</link>>",
+        "t": "<<link [[乘坐电梯到大厅|Office Lift Stop]]>><</link>>",
+        "pos": 189,
+        "fileName": "lift.twee",
+        "pN": "Widgets Office Lift"
+      },

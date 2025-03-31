@@ -1,0 +1,40 @@
+由于css需要修改内容较少, 故没有写在python中进行修改, 可手动修改
+将degrees-of-lewdity-master\modules\css\base.css中的
+
+#numberslider-value-humanpregnancymonths::after {
+	content: " months";
+}
+
+#numberslider-value-wolfpregnancyweeks::after {
+	content: " weeks";
+}
+
+修改为
+
+#numberslider-value-humanpregnancymonths::after {
+    content: " 月数" !important;
+}
+
+#numberslider-value-wolfpregnancyweeks::after {
+    content: " 周数" !important;
+}
+
+===============================================
+
+将
+
+@media (min-width: 40rem) {
+	#savesListContainer .savesListRow {
+		max-height: 2.4em;
+	}
+}
+
+修改为
+
+@media (min-width: 40rem) {
+    #savesListContainer .savesListRow {
+        max-height: 7em !important;
+    }
+}
+
+即可
